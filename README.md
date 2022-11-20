@@ -20,7 +20,7 @@ im also gonna add some features like instagram, youtube and spotify
 
 # Existing Features
 
-Feature 1 - allows users to buy merch by filling up a simple form.
+Feature 1 - allows users to buy merch by filling up a simple form tp purchase an item
 
 # Features Left to Implement
 

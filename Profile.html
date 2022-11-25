@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Itzy band</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+<section id="banner">
+    <img src="images/logo.jpg" class="logo">
+    <div class="banner-text">
+        <h1>Itzy</h1>
+        <p>Find out more about your favourite band</p>
+        <div class="banner-btn">
+            <!-- <a href="#"><span></span>Find Out</a>
+            <a href="#"><span></span>Read More</a> -->
+        </div>
+    </div>
+</section>
+<div id ="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="songs.html">SONGS</a></li>
+            <li><a href="discography.html">DISCOGRAPHY</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src ="images/menu.png" id="menu">
+</div>
+
+<!-- /*features*/ -->
+<section id="feature">
+<div class="title-text">
+<p>FEATURES</p>
+<h1>ABOUT US </h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+        <h1> experience</h1>
+        <div class="features-desc">
+        
+            <div class="features-icon"></div> 
+            <div class="features-text"></div>
+            <p> uncjjcmdkmkm</p>
+        </div>
+        </div>
+    <div>
+        <div class="features-img">
+            <img src="images/homepage.webp">
+        </div>
+    </div>
+        
+    </div>
+</div>
+</section>
+
+<!-- PROFILES -->
+<h2>PROFILE</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'YEJI')">YEJI</button>
+  <button class="tablinks" onclick="openCity(event, 'RYUJIN')">RYUJIN</button>
+  <button class="tablinks" onclick="openCity(event, 'LIA')">LIA</button>
+  <button class="tablinks" onclick="openCity(event, 'CHAERYEONG')">CHAERYEONG</button>
+  <button class="tablinks" onclick="openCity(event, 'YUNA')">YUNA</button>
+</div>
+
+<div id="YEJI" class="tabcontent">
+  <h3>YEJI</h3>
+  <p>London is the capital city of England.</p>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+        <div class="features-img">
+            <img src="images/nice.webp">
+        </div> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>

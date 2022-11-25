@@ -1,7 +1,8 @@
 <html>
 <head>
+    <!--<meta name="viewport" content ="with=device-width, initial-scale=1.0">-->
     <title>Itzy band</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
@@ -11,8 +12,8 @@
 <section id="banner">
     <img src="images/logo.jpg" class="logo">
     <div class="banner-text">
-        <!-- <h1>ITZY</h1> -->
-        <!-- <p>Find out more about your favourite band</p> -->
+        <h1>Itzy</h1>
+        <p>Find out more about your favourite band</p>
         <div class="banner-btn">
             <a href="#"><span></span>Find Out</a>
             <a href="#"><span></span>Read More</a>
@@ -26,15 +27,29 @@
             <li><a href="Profile.html">Profile</a></li>
             <li><a href="songs.html">SONGS</a></li>
             <li><a href="discography.html">DISCOGRAPHY</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
         </ul>
     </nav>
 </div>
 <div id="menuBtn">
     <img src ="images/menu.png" id="menu">
 </div>
-
-<!-- /*features*/ -->
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    sideNav.style.right ="-250px";
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right =="-250px"){
+            sideNav.style.right= "0";
+        }
+        else{
+            sideNav.style.right ="-250px";
+        }
+    }
+    </script>
+    <!-- /*features*/ -->
 <section id="feature">
 <div class="title-text">
 <p>FEATURES</p>
@@ -60,27 +75,5 @@
 </div>
 </section>
 
-<script>
-var menuBtn = document.getElementById("menuBtn")
-var sideNav = document.getElementById("sideNav")
-var menu = document.getElementById("menu")
-
-sideNav.style.right ="-250px";
-
-menuBtn.onclick = function(){
-    if(sideNav.style.right =="-250px"){
-        sideNav.style.right= "0";
-    }
-    else{
-        sideNav.style.right ="-250px";
-    }
-}
-</script>
-<p>ITZY (있지; debuted Feb 11, 2019) is a South Korean girl group under JYP Entertainment (JYPE). 
-    They debuted on February 11, 2019. The five members of ITZY are: Lia, Yeji, Yuna, Chaeryeong, and Ryujin.</p>
-
-
 </body>
 </html>
-
-

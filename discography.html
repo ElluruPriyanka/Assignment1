@@ -1,0 +1,83 @@
+<html>
+<head>
+
+    <title>Itzy band</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+<section id="banner">
+    <img src="images/logo.jpg" class="logo">
+    <div class="banner-text">
+        <h1>ITZY</h1>
+        <p>Find out more about your favourite band</p>
+    </div>
+</section>
+<div id ="sideNav">
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="songs.html">SONGS</a></li>
+            <li><a href="discography.html">DISCOGRAPHY</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src ="images/menu.png" id="menu">
+</div>
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+    
+    sideNav.style.right ="-250px";
+    
+    menuBtn.onclick = function(){
+        if(sideNav.style.right =="-250px"){
+            sideNav.style.right= "0";
+        }
+        else{
+            sideNav.style.right ="-250px";
+        }
+    }
+    </script>
+    <!-- /*features*/ -->
+<section id="feature">
+<div class="title-text">
+<h1>DISCOGRAPHY</h1>
+
+</div>
+<div class="feature-box">
+    <div class="features">
+        <div class="features-desc">
+        
+            <div class="features-icon"></div> 
+            <div class="features-text"></div>
+            <p> POPULAR ALBUMS</p>
+        </div>
+        </div>
+    <div>
+        <div class="row">
+            <div class="column">
+              <img src="images/album one.png" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="images/checkmate.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="images/loco.jpg" alt="Mountains" style="width:100%">
+            </div>
+          </div>
+     
+    </div>i
+        
+    </div>
+</div>
+</section>
+
+</body>
+</html>

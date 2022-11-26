@@ -1,20 +1,24 @@
 *{
 margin:0;
 padding:0;
+background-color: black;
 }
 
 /* banner */
 #banner{
 background:url(images/debut.jpg);
 background-color:#000;
-opacity: 80%;
+opacity: 75%;
+width: 100%;
+display: flex;
+justify-content: center;
 background-size: cover;
 background-position: center;
 height: 100vh;
 }
 /* logo */
 .logo{
-width:80px;
+width:90px;
 position: absolute;
 top: 5%;
 left: 10%;
@@ -26,6 +30,7 @@ color: black;
 padding-top: 180px;
 
 }
+
 .banner-text h1{
 font-size:130px;
 }
@@ -34,7 +39,7 @@ font-size:130px;
 font-size:20px;
 font-style: italic;  
 }
-.banner-btn{
+/* .banner-btn{
     margin:70px auto 0;
 }
 .banner-btn a{
@@ -66,6 +71,13 @@ font-style: italic;
 
 .banner-btn a:hover{
   color: #000;
+} */
+h2 {
+  border-style: solid;
+  border-width: 5px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+
 }
 
 /* side navigation */
@@ -75,7 +87,7 @@ font-style: italic;
   position: fixed;
   right: -250px;
   top: 0;
-  background: black ;
+  /* background: black ; */
   z-index: 2;
   transition: 0.5s;
 }
@@ -122,9 +134,16 @@ color:#fff;
   }
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
 /* table  */
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   width: 35%;
   padding:10px;
@@ -138,10 +157,11 @@ table.center {
 
 
 .table{
-  border: 1px solid black;
+  border: 1px solid white;
   border-collapse: collapse;
   width: 35%;
   padding:10px;
+  
 }
 
 table.place {
@@ -159,17 +179,20 @@ table.place {
 .side {
   flex: 30%;
   display: inline-block;
-  background-color: white;
-  padding: 15px;
+  background-color: #89ABE3FF;
+  padding: 20px;
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 /*Styling Main Column*/
 .main {
   flex: 50%;
-  background-color:#8AAAE5;
+  background-color:#EA738DFF;
   font-size: large;
   padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* footer style */
@@ -183,8 +206,9 @@ table.place {
 .icon{
   width: 30px;
   height: 30px;
+  padding: 10px;
 }
 
 .positionright{
-  float: right;
+  float: middle;
 }

@@ -1,9 +1,10 @@
 *{
 margin:0;
 padding:0;
+background-color: #000;
 }
 #banner{
-background:url(images/white.jpg );
+background:url(images/black.jpeg);
 background-size: cover;
 background-position: center;
 height: 100vh;

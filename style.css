@@ -6,9 +6,9 @@ background-color: black;
 
 /* banner */
 #banner{
-background:url(images/debut.jpg);
+background:url(images/homepage2.jpg);
 background-color:#000;
-opacity: 75%;
+opacity: 85%;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -74,7 +74,7 @@ font-style: italic;
 } */
 h2 {
   border-style: solid;
-  border-width: 5px;
+  border-width: 2px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
 
@@ -138,15 +138,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width: 50%;
 }
 
 /* table  */
 table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
-  width: 35%;
-  padding:10px;
+  width: 65%;
+  padding:15px;
 
 }
 
@@ -159,7 +159,7 @@ table.center {
 .table{
   border: 1px solid white;
   border-collapse: collapse;
-  width: 35%;
+  width: 55%;
   padding:10px;
   
 }
@@ -179,7 +179,7 @@ table.place {
 .side {
   flex: 30%;
   display: inline-block;
-  background-color: #89ABE3FF;
+  background-color: black;
   padding: 20px;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -189,7 +189,7 @@ table.place {
 /*Styling Main Column*/
 .main {
   flex: 50%;
-  background-color:#EA738DFF;
+  background-color:black;
   font-size: large;
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
@@ -211,4 +211,28 @@ table.place {
 
 .positionright{
   float: middle;
+}
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Styling Side Column*/
+.profile {
+  flex: 20%;
+  display: inline-block;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*Styling Main Column*/
+.side1 {
+  flex: 50%;
+  background-color:black;
+  font-size: large;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }

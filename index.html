@@ -1,18 +1,30 @@
 <html>
 <head>
     <title>Itzy band</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="Normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
 </head> 
 
 <body>
+<!-- cover-->
 <section id="banner">
-    <img src="images/logo.jpg" class="logo">
+    <div class="w3-content w3-section" style="max-width:100%">
+        <img class="mySlides" src="images/Princess.jpg" style="width:100%;opacity:65%;">
+        <img class="mySlides" src="images/white1.jpg" style="width:100%;opacity:65%;">
+        <img class="mySlides" src="images/homepage3.jpg" style="width:100%;opacity:65%;">
+      </div>
     <div class="banner-text">
-    </div>
+    <a href="https://youtu.be/zugAhfd2r0g">
+        <button onclick="dosomething()" class = "centered" style="background:transparent;color:beige;border-radius:5px;font-size: 250%;">Click me to watch the latest song released</button>
+    </a>
 </section>
+<div class="logo">
+    <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+</div>
+<!-- cover -->
 <!-- navigation -->
 <div id ="sideNav">
     <nav>
@@ -24,12 +36,14 @@
         </ul>
     </nav>
 </div>
+
+<h2>meow</h2>
+<!-- menu button -->
 <div id="menuBtn">
     <img src ="images/menu.png" id="menu">
 </div>
     <br>
-    <br>
-
+<!-- row  -->
 <div class="row">
     <!--A sub main container-->
     <div class="main">
@@ -42,14 +56,19 @@
         </p>
     </div>
 
+    <!-- <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="images/Princess.jpg" style="width:100%">
+        <img class="mySlides" src="images/white1.jpg" style="width:100%">
+        <img class="mySlides" src="images/banner.jpg" style="width:100%">
+      </div> -->
+
+
     <!--A sub side container which holds a picture-->
     <div class="side">
         <img src="images/final.jpg" width="700"  >
     </div> 
 </div>
 <hr>
-<br>
-<br>
 <br>
 <div class="tab">
     <!-- sub main container -->
@@ -102,19 +121,8 @@
 
 </div>
 
-  <!-- <div class="gallery">
-    <a target="_blank" href="images/ITZY-wallpaper-background.jpg">
-      <img src="images/" alt="Cinque Terre" width="300" height="500">
-    </a>
-    <div class="desc">Group picture</div>
-  </div>
-   -->
-  
-
   <iframe text-align: center width="560" height="315" src="https://www.youtube.com/embed/DYS1MbnAqMU" title="YouTube video player" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 <!-- footer -->
 <br>
@@ -141,28 +149,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
     </div>
 </div>
 
-    <a href="https:www.google.com"></a>
-        <button onclick="dosomething()" style="background:black;color:greenyellow;border-radius:5px"></button>
-    </a>
-
-<script>
-var menuBtn = document.getElementById("menuBtn")
-var sideNav = document.getElementById("sideNav")
-var menu = document.getElementById("menu")
-
-sideNav.style.right ="-250px";
-
-menuBtn.onclick = function(){
-    if(sideNav.style.right =="-250px"){
-        sideNav.style.right= "0";
-    }
-    else{
-        sideNav.style.right ="-250px";
-    }
-}
-</script>
-
-
+<script src="script.js"></script>
 </body>
 </html>
 

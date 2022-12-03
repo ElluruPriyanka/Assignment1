@@ -2,17 +2,17 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Itzy band</title>
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="Normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
+  <title>Itzy band</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="Normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
 </head> 
 
 <body>
 <section id="banner">
-    <img src="images/logo.jpg" class="logo">
+  <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
     <div class="banner-text">
     </div>
 </section>
@@ -322,22 +322,7 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-<script>
-  var menuBtn = document.getElementById("menuBtn")
-  var sideNav = document.getElementById("sideNav")
-  var menu = document.getElementById("menu")
-  
-  sideNav.style.right ="-250px";
-  
-  menuBtn.onclick = function(){
-      if(sideNav.style.right =="-250px"){
-          sideNav.style.right= "0";
-      }
-      else{
-          sideNav.style.right ="-250px";
-      }
-  }
-  </script>
 
+  <script src="script.js"></script>
 </body>
 </html>

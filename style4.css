@@ -62,7 +62,7 @@ margin:70px auto 0;
 .banner-btn a:hover{
   color: #000;
 }
-
+/* side navigation */
 #sideNav{
   width:250px ;
   height: 100vh;
@@ -81,6 +81,7 @@ nav ul li a{
 text-decoration: none;
 color:#fff;
 }
+/* menu button */
 #menuBtn{
     width:50px;
     height: 50px;
@@ -97,6 +98,7 @@ color:#fff;
   width: 40px ;
   margin-top:15px;
 } 
+/* phone version */
 @media screen and (max-width: 770px ){
     .banner-text h1{
         font-size:44px;
@@ -107,61 +109,89 @@ color:#fff;
     }
 }
 
+.h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-/* flex box style */
+/* slideshow */
+
 * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  box-sizing: border-box;
+}
 
-  .container {
-    position: relative;
+body {
+  background-color: black;
+  padding: 10px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 15px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
     width: 50%;
   }
-  
-  .image {
-    opacity: 1;
-    display: block;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
   }
-  
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  .text {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+}
+/* footer ------------------------------------*/
+.footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 50px;
+}
+
+/*Sizing for icon images*/
+.icon{
+  width: 30px;
+  height: 30px;
+}
+
+.positionright{
+  float: center;
+}

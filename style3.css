@@ -108,66 +108,92 @@ color:#fff;
         margin: 20px auto;
     }
 }
-/* images zoom */
-* {
+  /* slideshow gallery */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-    font-family: Arial;
+  img {
+    text-align: center;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
   }
   
-  /* The grid: Four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 25px;
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
   }
   
-  /* Style the images inside the grid */
-  .column img {
-    opacity: 0.8; 
-    cursor: pointer; 
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
   }
   
-  .column img:hover {
-    opacity: 1;
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
   }
   
-  /* Clear floats after the columns */
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* The expanding image container */
-  .container {
-    /* position: relative; */
-    /* display: none; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
   }
   
-  /* Expanding image text */
-  #imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: black;
-    font-size: 20px;
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
   }
   
-  /* Closable button inside the expanded image */
-  .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
+  .active,
+  .demo:hover {
+    opacity: 1;
   }

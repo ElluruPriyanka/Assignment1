@@ -3,7 +3,6 @@
     padding:0;
     background-color: black;
     }
-    
     /* banner */
     #banner{
     background:url(images/banner.jpg);
@@ -86,28 +85,44 @@
       margin-top:15px;
     } 
     
-    /* phone version */
-    @media screen and (max-width: 770px ){
-        .banner-text h1{
-            font-size:44px;
-        }
-        .banner-btn a{
-          display : block;
-          margin: 20px auto;
-        }
+/* phone version */
+@media screen and (max-width: 770px ){
+    .banner-text h1{
+        font-size:44px;
     }
-    @media screen and (max-width: 500px) {
-      .column {
-        width: 100%;
-      }
+    .banner-btn a{
+      display : block;
+      margin: 20px auto;
     }
-    
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* phone version */
+@media screen and (max-width: 770px ){
+.banner-text h1{
+  font-size:44px;
+}
+.banner-btn a{
+display : block;
+margin: 20px auto;
+}
+}
+@media screen and (max-width: 500px) {
+.column {
+width: 100%;
+}
+}
 
     /* tabs */
 body {font-family: Arial;}

@@ -4,18 +4,6 @@ padding:0;
 background-color: black;
 }
 
-/* banner */
- /* #banner{
-background:url(images/homepage2.jpg);
-background-color:#000;
-opacity: 85%;
-width: 100%;
-display: flex;
-justify-content: center;
-background-size: cover;
-background-position: center;
-height: 100vh;
-}  */
 /* logo */
 .logo{
 width:90px;
@@ -175,7 +163,7 @@ table.place {
   padding: 10px;
 }
 
-.positionright{
+.center{
   float: middle;
 }
 .tab {

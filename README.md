@@ -91,16 +91,16 @@ The information needed for this website was mostly taken from https://kprofiles.
 Media
 https://kprofiles.com/itzy-members-profile/
 https://en.wikipedia.org/wiki/Itzy
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery
-https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
-https://www.w3schools.com/howto/howto_css_image_text.asp
-https://www.itzyjapan.com/discography/detail/1/
-https://midzyjapan.com/
-https://wallpapercave.com/itzy-pc-wallpapers
-https://www.wallpaperflare.com/search?wallpaper=itzy
-https://www.pinterest.com/pin/692147036487826595/
-https://www.peakpx.com/en/search?q=itzy+yeji
-https://xd.adobe.com/view/0ecaf492-120d-43b2-865d-58f3192d4118-5b99/
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery - for code reference
+https://www.w3schools.com/howto/howto_js_portfolio_filter.asp- for code reference
+https://www.w3schools.com/howto/howto_css_image_text.asp- for javascript
+https://www.itzyjapan.com/discography/detail/1/- for reference and information
+https://midzyjapan.com/- for reference and information
+https://wallpapercave.com/itzy-pc-wallpapers- for images
+https://www.wallpaperflare.com/search?wallpaper=itzy- for images
+https://www.pinterest.com/pin/692147036487826595/- for images
+https://www.peakpx.com/en/search?q=itzy+yeji- for images
+https://xd.adobe.com/view/0ecaf492-120d-43b2-865d-58f3192d4118-5b99/- xd link
 
 Acknowledgements
 I received inspiration for this project from https://www.hallyuidol.com/group/RhZwaMDcouHtml4b2flH

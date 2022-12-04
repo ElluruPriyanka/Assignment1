@@ -6,10 +6,10 @@ background-color: #000;
 
 /* logo */
 .logo{
-width:90px;
+width:70px;
 position: absolute;
-top: 5%;
-left: 10%;
+top: 3%;
+left: 3%;
 }
 
 /* side navigation */
@@ -61,7 +61,7 @@ color:#fff;
 }
 /*  heading */
 .h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* container*/
@@ -73,18 +73,20 @@ color:#fff;
 body {
     background-color: black;
     padding: 10px;
-    font-family: Arial;
+    font-family:'Courier New', Courier, monospace;
 }
 
 /* Center website */
- .main {
+.main {
     max-width: 1000px;
     margin: auto;
+    font-family: 'Courier New', Courier, monospace;
 } 
 
 h1 {
     font-size: 50px;
     word-break: break-all;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .row {
@@ -103,19 +105,12 @@ h1 {
     width: 50%;
 }
 
-/* Clear floats after rows */ 
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 /* side */
 .side {
-    background-color: black;
     padding: 10px;
-    font-size: 100%;
+    font-size: 150%;
     text-align: center;
+    font-family:'Courier New', Courier, monospace
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -133,7 +128,6 @@ h1 {
 }
 /* footer ------------------------------------*/
 .footer{
-    background-color: black;
     color: white;
     padding: 10px;
     height: 50px;
@@ -162,6 +156,6 @@ flex: 60%;
 background-color:black;
 font-size: large;
 padding: 20px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: 'Courier New', Courier, monospace;
 text-align: center;
 }

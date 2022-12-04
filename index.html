@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html>
+
 <head>
     <title>Itzy band</title>
     <link rel="stylesheet" href="style.css"> 
@@ -7,24 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kolker+Brush&display=swap" rel="stylesheet">
 </head> 
-
 <body>
-<!-- cover-->
+
+<!-- background cover slideshow-->
 <section id="banner">
-    <div class="w3-content w3-section" style="max-width:100%">
-        <img class="mySlides" src="images/Princess.jpg" style="width:100%;opacity:65%;">
-        <img class="mySlides" src="images/white1.jpg" style="width:100%;opacity:65%;">
-        <img class="mySlides" src="images/homepage3.jpg" style="width:100%;opacity:65%;">
-      </div>
-    <div class="banner-text">
-    <a href="https://youtu.be/zugAhfd2r0g">
-        <button onclick="dosomething()" class = "centered" style="background:transparent;color:beige;border-radius:5px;font-size: 250%;">Click here to watch the latest song released</button>
-    </a>
+    <div class="slideshow" style="max-width:100%">
+        <img class="mySlides" src="images/Princess.jpg"  alt = princess style="width:100%;opacity:65%;">
+        <img class="mySlides" src="images/white1.jpg" alt = White style="width:100%;opacity:65%;">
+        <img class="mySlides" src="images/homepage3.jpg" alt=homepage style="width:100%;opacity:65%;">
+    </div>
+    <!-- center text -->
+    <header class="background-centertext">
+        <a href="https://youtu.be/zugAhfd2r0g"><button onclick="dosomething()" class = "centered" style="background:transparent;color:beige;border-radius:5px;font-size: 250%;">Click here to watch the latest song released</button></a>
+    </header>
 </section>
+
+<!-- homepage icon -->
 <div class="logo">
-    <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
+    <a href="index.html"><img src="images/logo.jpg" alt =logo class="logo"></a>
 </div>
-<!-- cover -->
+
 <!-- navigation -->
 <div id ="sideNav">
     <nav>
@@ -39,32 +43,45 @@
 
 <!-- menu button -->
 <div id="menuBtn">
-    <img src ="images/menu.png" id="menu">
+    <img src ="images/menu.png" alt = menu id="menu">
 </div>
 
+<br>
+<br>
 <!-- row  -->
-<div class="row">
+<section class="row">
     <!--A sub main container content-->
     <div class="main">
-        <h2 style="color:white">>  ABOUT US</h2>
+        <h2 style="color:antiquewhite">> ABOUT US</h2>
         <br>
         <p style = "color: white;">ITZY (있지; debuted Feb 11, 2019) is a South Korean girl group under JYP Entertainment (JYPE).
         They debuted on February 11, 2019. The five members of ITZY are: Lia, Yeji, Yuna, Chaeryeong, and Ryujin.
         On January 21, JYP announced that they would be debuting a new girl group, its first since Twice in 2015 and its first overall idol group since Stray Kids in 2017.
         The label's official YouTube channel uploaded a video trailer revealing the five members.     
         </p>
+        <br>
+        <h2 style = "color: antiquewhite; font-size: 150%;text-align: center;">>2022–present: International endeavors</h2>
+        <br>
+        <p style = "color: white;">On February 10, it was reported by Billboard that Republic Records and JYP Entertainment added Itzy to their strategic 
+            partnership, which initially only included Twice. On April 6, Itzy released their first Japanese single "Voltage".
+             On July 15, Itzy released their fifth EP Checkmate and its lead single "Sneakers". It was also announced that they 
+             will hold their first world tour, titled the Checkmate World Tour, with the first shows in Seoul on August 6 and 7.
+            Itzy released their second Japanese single Blah Blah Blah on October 5 and their first English single 
+            "Boys Like You" on October 21.On November 30 , Itzy released their sixth EP Cheshire and its lead single of the same name.</p>
     </div>
     <!--A sub side container which holds a picture-->
     <div class="side">
-        <img src="images/final.jpg" width="700"  >
+        <img src="images/final.jpg" alt = side width="100%" height="auto"  >
     </div> 
-</div>
+</section>
 <hr>
 <br>
+<h2 style="color:antiquewhite">>PROFILE OF GROUP</h2>
+<br>
+<!-- new class tab -->
 <div class="tab">
-    <!-- sub main container -->
     <div class="profile">
-    <table style="color:white;text-align: center;" >
+    <table style="color:white;text-align: center; " >
         <tr>
         <th>Profile</th>
         <th>ITZY</th>
@@ -87,10 +104,6 @@
             <td>Yuna (born Dec 9, 2003)</td>
         </tr>
         <tr>
-            <td>Oldest Member</td>
-            <td>Yeji (born May 26, 2000)</td>
-        </tr>
-        <tr>
             <td>Leader</td>
             <td>Yeji</td>
         </tr>
@@ -104,23 +117,19 @@
         </tr>
     </table>
     </div>
-
+    <!-- for side picture -->
     <div class="side1">
-        <img src="images/protrait.jpg" width="75%" height="600" >
+        <img src="images/library.jpg" width="500%" height="300"  >
     </div>
-    <!-- <div class="side2">
-        <img src="images/protrait1.jpg" width="75%" height="700" >
-    </div> -->
 </div>
+<br>
+<br>
+<br>
+<br>
 
-<!-- footer -->
-<br>
-<br>
-<br>
-<br>
 <!--Created a footer-->
 <div class="footer">
-<!--Positioned items to extreme right-->
+<!--Positioned items to center-->
 <div class="center">
     <div class="row">   
         <a href="https://instagram.com/itzy.all.in.us?igshid=YmMyMTA2M2Y=" target="_blank">
@@ -138,7 +147,7 @@
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="script1.js"></script>
 </body>
 </html>
 

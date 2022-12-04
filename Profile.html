@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Itzy band</title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="styleprofile.css">
   <link rel="stylesheet" href="Normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,11 +11,14 @@
 </head> 
 
 <body>
-<section id="banner">
-  <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
-    <div class="banner-text">
-    </div>
-</section>
+
+  <!-- background cover -->
+<div id="banner">
+    <!-- <a href="https://youtu.be/zugAhfd2r0g"><button onclick="dosomething()" class = "centered" style="background:transparent;color:beige;border-radius:5px;font-size: 250%;">Click here to watch the latest song released</button></a> -->
+  <a href="index.html"><img src="images/logo.jpg" alt = logo class="logo"></a>
+</div>
+
+<!-- navigation -->
 <div id ="sideNav">
     <nav>
         <ul>
@@ -26,19 +29,25 @@
         </ul>
     </nav>
 </div>
+<!-- menu button -->
 <div id="menuBtn">
     <img src ="images/menu.png" id="menu">
 </div>
+<br>
 
-<h2>PROFILE</h2>
-
+<!-- Profile section  -->
+<div class="profile">
+  <h2 style ="color:white">PROFILE</h2>
+</div>
+<!-- different tabs for different profiles -->
 <button class="tablink" onclick="openPage('YEJI', this, 'green')" id="defaultOpen">YEJI</button>
 <button class="tablink" onclick="openPage('YUNA', this, 'blue')">YUNA</button>
 <button class="tablink" onclick="openPage('LIA', this, 'orange')">LIA</button>
 <button class="tablink" onclick="openPage('RYUJIN', this, 'red')">RYUJIN</button>
 <button class="tablink" onclick="openPage('CHAERYEONG', this, 'purple')">CHAERYEONG</button>
 
- <div id="YEJI" class="tabcontent"style ="color:white">
+<!-- contnent about group members -->
+ <content id="YEJI" class="tabcontent"style ="color:white">
 
   <div>
     <div class="row">
@@ -54,7 +63,8 @@
     </div>
   </div>
 
-  <h3>YEJI</h3>
+  <h3 style="color: blanchedalmond; font-size: 150%;">YEJI</h3>
+  <br>
   <p>Stage Name: Yeji (예지)</p>
   <p>Birth Name: Hwang Ye Ji (황예지)</p>
   <p>English Name: Lucy Hwang</p>
@@ -67,12 +77,13 @@
   <p>Blood Type: A</p>
   <p>MBTI Type: ESFJ</p>
   <p>Nationality: Korean</p>
-  
-  <p>Yeji facts:</p>
+  <br>
+  <h3 style="font-size:150%; color: blanchedalmond;">Yeji Facts:</h3>
+  <br>
   <p>- Yeji’s hometown is Jeonju, South Korea.</p>
   <p>- She has an older sister.</p>
-   <p>- She attended Jeonju Hwasan Elementary School (graduated), 
-  Jeonju Geunyoung Middle School (graduated) & Gyogyo Jeonju Commercial Information Reporting School (graduated)</p>
+   <p>- She attended Jeonju Hwasan Elementary School (graduated),</p>
+   <p>Jeonju Geunyoung Middle School (graduated) & Gyogyo Jeonju Commercial Information Reporting School (graduated)</p>
    <p>- She became a trainee in 2016, so she trained for 3 years.</p>
    <p>- She made a cameo at “Twenty Again” EP8 (2015).</p>
    <p>- Yeji is close to Wanna One/ AB6IX‘s Lee Daehwi.</p>
@@ -82,10 +93,9 @@
    <p>- Fans say she looks like Stray Kids‘ Hyunjin and also (G)I-DLE‘s Yuqi.</p>
    <p>- Yeji auditioned to JYP with “Like Ooh-Ahh” by Twice.</p>
    <br>
-
-</div>
-
-
+   <br>
+   <br>
+</content>
 
  <div id="RYUJIN" class="tabcontent" style ="color:white">
 
@@ -101,12 +111,10 @@
           <img src="images/ryujin2.jpg" alt="nice" style="width:100%">
         </div>
     </div>
- 
 </div>
 
-
-
-  <h3>RYUJIN</h3>
+  <h3 style="color: blanchedalmond; font-size: 150%;">RYUJIN</h3>
+  <br>
   <p>Stage Name: Ryujin (류진)</p>
   <p>Birth Name: Shin Ryu Jin (신류진)</p>
   <p>English Name: Joanne Shin</p>
@@ -119,12 +127,13 @@
   <p>Blood Type: B</p>
   <p>MBTI Type: INTJ</p>
   <p>Nationality: Korean</p>
-      
-  <p>Ryujin facts:</p>
+  <br>
+  <h3 style="font-size:150%; color: blanchedalmond;">Ryujin Facts:</h3>
+  <br>
   <p>- Ryujin’s hometown is Seoul, South Korea.</p>
   <p>- She has a younger brother.</p>
-  <p>- She attended Seoul Gwangnam Elementary School (graduated), Daejang Middle School (graduated),
-  Gyeonggi Girls’ High School (transferred) & Hanlim Entertainment Arts High School (graduated)</p>
+  <p>- She attended Seoul Gwangnam Elementary School (graduated), Daejang Middle School (graduated),</p>
+  <p>  Gyeonggi Girls’ High School (transferred) & Hanlim Entertainment Arts High School (graduated)</p>
   <p>- She starred in BTS‘ Love Yourself Highlight Reel (She was J-Hope and Jimin‘s pair).</p>
   <p>- She was an actress in the movie “The King” (2017).</p>
   <p>- She appeared on Stray Kids’ Survival Show EP1 (2017).</p>
@@ -138,9 +147,9 @@
   <p>- Ryujin is good friends with LOONA‘s Heejin and Hyunjin.</p>
   <p>- She was a trainee for 4 years.</p>
   <p>- Ryujin’s role model is Lee Hyori (Fin.K.L).</p>
-
   <br>
-
+  <br>
+  <br>
 </div>
 
 
@@ -159,7 +168,8 @@
         </div>
     </div>
   </div>
-  <h3>LIA</h3>
+  <h3 style="color: blanchedalmond; font-size: 150%;">LIA</h3>
+  <br>
   <dl>
       <dt>Stage Name: Lia (리아)</dt>
       <dt>Birth Name: Choi Ji Su (최지수)</dt>
@@ -172,12 +182,14 @@
       <dt>Weight: 43 kg (94 lbs)</dt>
       <dt>bMBTI Type: ENFJ</dt>
       <dt>Nationality: Korean</dt>
-      <dt>Lia facts:</dt>
+      <br>
+      <h3 style="color: blanchedalmond; font-size: 150%;">Lia facts:</h3>
+      <br>
       <dt>- Lia’s hometown is Incheon, South Korea.</dt>
       <dt>- She has a younger brother.</dt>
-      <dt>- She attended Incheon Sinsong Elementary School (graduated), Shinsong Middle School (transferred),
-          Northern College Eight School Jeju (transferred), Shinsong Middle School (graduated) & Seoul Performing Arts High School
-          department of Practical Music (SOPA / graduated</dt>
+      <dt>- She attended Incheon Sinsong Elementary School (graduated), Shinsong Middle School (transferred),</dt>
+      <dt>  Northern College Eight School Jeju (transferred), Shinsong Middle School (graduated) & Seoul Performing Arts High School</dt>
+      <dt>   department of Practical Music (SOPA / graduated</dt>
       <dt>- Her shoe size is 240mm</dt>
       <dt>- She was a trainee for more than 2 years.</dt>
       <dt>- She attends an International School.</dt>
@@ -192,9 +204,9 @@
       <dt>- Her stage name comes from ‘Julia’, her English name. Her aunt gave her that name.</dt>
       <dt>- She used to live in Canada</dt>
       <dt>- She can speak English.</dt>
-
   </dl>
-
+  <br>
+  <br>
   <br>
   </div>
 
@@ -214,14 +226,14 @@
     </div>
   </div>
 
-  <h3>CHAERYEONG</h3>
-
+  <h3 style="color: blanchedalmond; font-size: 150%;">CHAERYEONG</h3>
+  <br>
 <dl>
     <dt>Stage Name: Chaeryeong (채령)</dt>
     <dt>Birth Name: Lee Chae Ryeong (이채령)</dt>
     <dt>English Name: Judy Lee</dt>
     <dt>Position: Main Vocalist, Sub Rapper</dt>
-    <dt> Birthday: June 5, 2001</dt>
+    <dt>Birthday: June 5, 2001</dt>
     <dt>Zodiac Sign: Gemini</dt>
     <dt>Chinese Zodiac Sign: Snake</dt>
     <dt>Height: 166 cm (5’5″)</dt>
@@ -229,11 +241,13 @@
     <dt>Blood Type: B</dt>
     <dt>MBTI Type: ISFJ</dt>
     <dt>Nationality: Korean</dt>
-    <dt>Chaeryeong facts:</dt>
-    <dt> Her hometown is Yongin, South Korea.</dt>
+    <br>
+    <h3 style="color: blanchedalmond; font-size: 150%;">Chaeryeong facts:</h3>
+    <br>
+    <dt>- Her hometown is Yongin, South Korea.</dt>
     <dt>- She’s IZ*ONE‘s Chaeyeon‘s sister. She also has a younger sister named Chaemin. </dt>
-    <dt>- She attended Yongin Seocheon Elementary School (graduated), Yongin Seocheon Middle School (graduated) &
-        Hanlim Entertainment Art High School (Musical major / graduated)</dt>
+    <dt>- She attended Yongin Seocheon Elementary School (graduated), Yongin Seocheon Middle School (graduated) &</dt>
+    <dt>  Hanlim Entertainment Art High School (Musical major / graduated)</dt>
     <dt>- She became a trainee in 2014. She trained for 5 years.</dt>
     <dt>-  Her nickname is “Chocolate Holic”.</dt>
     <dt>- Chaeryeong gets scared easily.</dt>
@@ -270,8 +284,8 @@
   </div>
 </div>
 
-<h3>YUNA</h3>
- 
+<h3 style="color: blanchedalmond; font-size: 150%;">YUNA</h3>
+<br>
 <dl>
     <dt>Stage Name: Yuna (유나)</dt>
     <dt>Birth Name: Shin Yu Na (신유나)</dt>
@@ -285,11 +299,13 @@
     <dt>Blood Type: A</dt>
     <dt>MBTI Type: ENFP</dt>
     <dt>Nationality: Korean</dt>
-    <dt>Yuna facts:</dt>
+    <br>
+    <h3 style="color: blanchedalmond; font-size: 150%;">Yuna facts:</h3>
+    <br>
     <dt>- Yuna’s hometown is Suwon, South Korea.</dt>
     <dt>- She has an older sister.</dt>
-    <dt>- She attended Suwon Hwayang Elementary School (graduated), Yeongbok Girls’ Middle School (graduated) 
-      & Hanlim Entertainment Arts High School (Practical Dance Department / student) </dt>
+    <dt>- She attended Suwon Hwayang Elementary School (graduated), Yeongbok Girls’ Middle School (graduated)</dt>
+    <dt>  & Hanlim Entertainment Arts High School (Practical Dance Department / student) </dt>
     <dt>- She appeared in BTS‘ Highlight Reels (She was Jungkook‘s pair) (2017).</dt>
     <dt>- Yuna used to wear braces.</dt>
     <dt>- Fans say she looks like PRISTIN‘s Kyulkyung.</dt>
@@ -302,27 +318,30 @@
 </dl>
 </div> 
 
+<!--Created a footer-->
+<div class="footer">
+<!--Positioned items to center-->
+<div class="center">
+    <div class="row">   
+        <a href="https://instagram.com/itzy.all.in.us?igshid=YmMyMTA2M2Y=" target="_blank">
+            <img class = "icon" src ="images/instagram.webp" alt="instagram">
+        </a>
+        <a href = "https://youtube.com/c/ITZY" target="_blank">
+            <img class = "icon" src="images/youtube.png" alt="youtube"> 
+        </a> 
+        <a href="https://twitter.com/itzyofficial" target="_blank">
+            <img class = "icon" src="images/twitter.png" alt="twitter"> 
+        </a> 
+        <a href="https://www.tiktok.com/@itzyofficial" target="_blank">
+            <img class = "icon" src="images/tiktok.png" alt="tiktok"> 
+        </a> 
+    </div>
+</div>
+
 <br>
-<!-- tab link -->
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
+<br>
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-  <script src="script.js"></script>
+<!-- reference to js  -->
+<script src="script.js"></script>
 </body>
 </html>

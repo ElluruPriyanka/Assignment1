@@ -3,7 +3,7 @@
 <head>
 
 <title>Itzy band</title>
-<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="stylegallery.css">
 <link rel="stylesheet" href="Normalize.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +11,11 @@
 </head> 
 
 <body>
+  <!-- reference to javascript -->
+<script src="script1.js"></script>
+
 <section id="banner">
   <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
-<!-- <div class="banner-text">
-    <h1>ITZY</h1>
-    <p>Find out more about your favourite band</p>
-</div> -->
-<!-- side nav------------------------------------------------ -->
 </section>
 <div id ="sideNav">
 <nav>
@@ -40,10 +38,75 @@
     </div>
 </div>
 
-  <!-- slideshow gallery -->
+<div class="row">
+  <div class="column">
+    <img src="images/image1.jpg" style="width:100%" alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image2.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image3.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image4.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image5.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image6.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/cheshire2.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/cheshire3.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/sneaker1.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/sneaker2.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/sneaker 3.jpeg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/sneaker4.jpeg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/sneaker5.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/checkmate2.jpg" style="width:100%"alt = "image" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/checkmate3.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/checkmate4.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/checkmate5.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image7.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/image8.jpg" style="width:100%" alt = "image"onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
 
 
-  <div class="container">
+  <!-- slideshow gallery-------------------------------------------------------------- -->
+  <!-- <div class="container">
     <div class="mySlides">
       <img src="images/image1.jpg" style="width:100%">
     </div>
@@ -117,9 +180,6 @@
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
   
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
   
   <div class="row">
     <div class="column">
@@ -177,9 +237,9 @@
         <img class="demo cursor" src="images/image8.jpg" style="width:100%" onclick="currentSlide(17)" >
       </div>
     </div>
-  </div>
+  </div> -->
 
 <script src="script.js"></script>
 </body>
 
-  </html>
+</html>

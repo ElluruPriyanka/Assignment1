@@ -73,6 +73,8 @@ In addition, you should mention in this section how your project looks and works
 
 - My mobile view for my homepage website words well but just that there is a lot of empty spaces here and there so it doesnt really look that attractive.
 - my other pages are not that good when presented in mobile view as the background cover gets distorted and doesnt fit the screen size like how i want it to be
+- the icon placement is not standarised so it might look kinda messy
+- the gallery view might be a hard to see the image if its too big
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -98,6 +100,7 @@ https://wallpapercave.com/itzy-pc-wallpapers
 https://www.wallpaperflare.com/search?wallpaper=itzy
 https://www.pinterest.com/pin/692147036487826595/
 https://www.peakpx.com/en/search?q=itzy+yeji
+https://xd.adobe.com/view/0ecaf492-120d-43b2-865d-58f3192d4118-5b99/
 
 Acknowledgements
 I received inspiration for this project from https://www.hallyuidol.com/group/RhZwaMDcouHtml4b2flH

@@ -30,7 +30,7 @@ function carousel() {
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
-// slideshow 
+// slideshow for gallery
 function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
   var imgText = document.getElementById("imgtext");

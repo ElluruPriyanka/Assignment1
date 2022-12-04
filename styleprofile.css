@@ -6,10 +6,9 @@ background-color: black;
 /* banner background */
 #banner{
 background:url(images/banner.jpg);
-opacity: 70%;
+opacity: 85%;
 width: 100%;
 display: flex;
-justify-content: middle;
 background-size: cover;
 background-position: center;
 height: 100vh;
@@ -55,7 +54,7 @@ cursor: pointer;
 
 #menuBtn img{
   width: 40px ;
-  margin: top 5px;
+  margin-top: 5px;
 } 
 /* for profile title */
 h2 {
@@ -119,50 +118,6 @@ clear: both;
 display: table;
 }
 
-@media(max-width: 380px) {
-.row{display: block;}
-.size,.size1,.size2,.size3,.sizecontact,.tab{width: 375px;}
-.side,.slideshow-container{padding: 6%;}
-.size{height: 900px;}
-.size1{height: 1720px;}
-.sizecontact{height: 886px;}
-.timeline::after{left: -188px;}
-.container {padding:6px 0px;}
-.prev,.next{
-margin-left: -6px;
-margin-right: -6px;
-width:0%;
-top:68%;
-}
-.content {
-padding: 13px;
-position: relative;
-width: 356px;
-height: 361px;
-}
-
-.container::after {
-width: 22px;
-height: 22px;
-right: -43px;
-border: 4px;
-
-}
-.right::after {left: -276px;}
-.dot {margin: 4px 1px;}
-.openbtn,.footer,.form{width: 102%;}
-
-.flex-container > li {
-width: 315px;
-height: 210px;
-margin: 16px;
-padding: 7px;
-padding-top: 64px;
-font-size: 25px;
-}
-
-.flex-container {font-size: 26px;}
-}
 
 /* footer style */
 .footer{
@@ -172,8 +127,8 @@ height: 10px;
 }
 /* icon */
 .icon{
-width: 50px;
-height: 50px;
+width: 70px;
+height: 70px;
 padding: 20px;
 }
 .center{
@@ -186,8 +141,8 @@ text-align: center;
 
 /* phone version */
 @media screen and (max-width: 770px ){
-.banner-text h1{
-    font-size:44px;
+.banner{
+width:20%;
 }
 }
 @media screen and (max-width: 500px) {

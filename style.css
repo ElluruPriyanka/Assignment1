@@ -52,7 +52,7 @@ cursor: pointer;
 }
 #menuBtn img{
 width: 40px ;
-margin: top 5px;
+margin-top: 5px;
 } 
 img {
 display: block;
@@ -145,9 +145,11 @@ width: 30px;
 height: 30px;
 padding: 10px;
 }
-
 .center{
-float: middle;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 }
 
 /* phone version */

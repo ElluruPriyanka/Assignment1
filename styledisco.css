@@ -8,7 +8,7 @@ background:url(images/white1.jpg);
 background-size: cover;
 background-position: center;
 height: 100vh;
-opacity: 70%;
+opacity: 85%;
 }
 .logo{
 width:70px;
@@ -48,7 +48,7 @@ color:#fff;
 }
 #menuBtn img{
   width: 40px ;
-  margin: top 5px;
+  margin-top: 5px;
 } 
 /* title */
 .h1{
@@ -88,22 +88,15 @@ color:#fff;
 .icon{
   width: 30px;
   height: 30px;
+  padding: 1px;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 }
 
-
-/*Responsive layout - makes a two column-layout instead of four columns */
- @media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout  */
- @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-} 
 
 /* phone version */
 @media screen and (max-width: 770px ){

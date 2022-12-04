@@ -38,11 +38,11 @@ https://kprofiles.com/itzy-members-profile/ - i got most of my information for m
 
 # Features Left to Implement
 
-- I need implement features like
+- I need to implement features like maybe creating forms for fans to fill up to go for events
 
 # Another feature idea
 
-- Maybe i can use a slideshow to show my image
+- Maybe i can use a slideshow to show my image more clearly
 
 Technologies Used
 
